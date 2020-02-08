@@ -1,0 +1,112 @@
+.header {
+  text-align: center;
+  color: #1ed761;
+  background-color: #4f4f4f;
+  margin:0;
+  padding: 20px;
+}
+
+.playlist {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 18%
+}
+
+.expand {
+  padding: 20px;
+  background-color:#595959;
+  margin:0;
+}
+
+.information {
+  color: white;
+  display:flex;
+  padding: 20px;
+  background-color: black;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.information p {
+  font-size: 20px;
+}
+.information input {
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 75px;
+}
+
+.main {
+  width: 100%;
+}
+
+.user-input {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+body {
+  display:flex;
+  margin: 0px;
+  background-color: gray;
+  color: white;
+}
+
+/*
+.misc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+*/
+
+
+input {
+  min-width: 30px;
+}
+
+#imgUrl img {
+  display: block;
+  max-height: 100px;
+  width: auto;
+  margin: 20px;
+}
+
+#name p {
+  height: 100px;
+  display: block;
+  margin: 20px;
+}
+
+#artist p {
+  height: 100px;
+  display: block;
+  margin: 20px;
+}
+
+#length p {
+  height: 100px;
+  display: block;
+  margin: 20px;
+}
+
+#linkUrl a {
+  height: 100px;
+  display: block;
+  margin: 20px;
+}
+
+#delete div {
+  height: 100px;
+  display: block;
+  margin: 20px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Playlist Project! </title>
+        <!-- Your CSS -->
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+      <div class="information left">
+        <div class="desc">
+          <p>Add a new song:</p>
+        </div>
+        <div class="user-input">
+          <input class="imgUrlInput" placeholder="Song Image Address">
+          <input class="nameInput" placeholder="Song Name">
+          <input class="artistInput" placeholder="Artist Name">
+          <input class="lengthInput" placeholder="Length of Song">
+          <input class="linkUrlInput" placeholder="Song Link Address">
+          <button class="add">Add new song.</button>
+        </div>
+        <div class="misc">
+          <p>Songs in Playlist: <span class="playlistLength"></span></p>
+          <button class="shuffle">Shuffle Playlist</button>
+        </div>
+      </div>
+
+      <h2 class="expand">
+        >
+      </h2>
+
+      <div class="main right">
+        <h1 class="header">Spootify</h1>
+
+        <div class="playlist">
+          <div class="column" id="imgUrl">
+          </div>
+          <div class="column" id="name">
+          </div>
+          <div class="column" id="artist">
+          </div>
+          <div class="column" id="length">
+          </div>
+          <div class="column" id="linkUrl">
+          </div>
+          <div class="column" id="delete">
+          </div>
+          
+        </div>
+      </div>
+        
+        
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+      <!-- Your Javascript -->
+      <script src="js/script.js"></script>
+    </body>
+</html>
