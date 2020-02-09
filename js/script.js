@@ -48,7 +48,7 @@ $(document).ready(function() {
   }); 
 
   $(".expand").click(function() {
-    $(".information").toggle("slide");
+    $(".information").animate({width:'toggle'},350);
 
     if ($(".arrow").html() == "&gt;") {
       $(".arrow").html("<");
