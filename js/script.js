@@ -14,7 +14,7 @@ if (typeof(Storage) !== "undefined") {
 
 
 $(document).ready(function() {
-  $(".expand").text(">");
+  $(".arrow").html(">");
   display();
   
   $(".add").click(function() {
@@ -50,10 +50,10 @@ $(document).ready(function() {
   $(".expand").click(function() {
     $(".information").toggle("slide");
 
-    if ($(".expand").text() == ">") {
-      $(".expand").text("<");
+    if ($(".arrow").html() == "&gt;") {
+      $(".arrow").html("<");
     } else {
-      $(".expand").text(">");
+      $(".arrow").html(">");
     }
   })
 });
